@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    padding: 5px;
+    display: inline;
+
+}
+.menu{
+    overflow: hidden;
+    background-color: white;
+    margin-left: 30%;
+    
+}
+.menu-bar{
+    text-decoration: none;
+    padding: 0px 22px;
+    font-size: 18px;
+    color: black;
+}
+.menu-bar:hover{
+    color: orange;
+}
+.heading-line{
+    display: flex;
+}
+.forward {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    outline: 0px;
+    border: none;
+    cursor: pointer;
+    margin-right: 80%;
+    font-size: large;
+}
+.backward{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 80px;
+    outline: 0px;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+}
+.dishes{
+    max-width: 1200px;
+    width: 95%;
+}
+.slider .dish-list{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(10, 1fr);
+}
+.slider .dish-list .dish-items{
+    height: 180px;
+    width: 144px;
+}
